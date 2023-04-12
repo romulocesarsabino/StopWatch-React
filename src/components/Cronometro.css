@@ -1,0 +1,42 @@
+.display {
+  display: flex;
+  align-items: center;
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.timerCell {
+  background-color: #0003;
+  font-size: 54pt;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #f80000;
+}
+
+input[type="button"] {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  margin: 1rem 0.75rem;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="button"]:hover {
+  transform: scale(1.1);
+  color: #000;
+  filter: brightness(0.75);
+}
+
+input[value="Start"] {
+  background-color: #389900;
+}
+
+input[value="Stop"] {
+  background-color: #fc2429;
+}
+
+input[value="Reset"] {
+  background-color: #ecc229;
+}
